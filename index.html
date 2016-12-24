@@ -1,0 +1,28 @@
+﻿<html>
+<head>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.leddisplay.js"></script>
+<title>jQuery leddisplay Plugin Demos</title>
+</head>
+
+<body style="background-color:black">
+
+<div class="jquery-script-clear"></div>
+
+<canvas style="margin-top: 100px" class="canvasld"> I LOVE YOU ESTHER </canvas>
+
+<script type="text/javascript">
+	var options = {
+			pixelSize: 40, 
+			stepDelay: 45, 
+			horizontalPixelsCount:100,
+			verticalPixelsCount:5,
+			enabledPixelColor:"yellow",
+			pixelRatio: 0.8
+		};
+		$('.canvasld, .crl').leddisplay(options);
+</script>
+
+</body>
+</html>
